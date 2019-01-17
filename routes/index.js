@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var async = require('async');
+var async = require('async');     //异步流程控制
 
 router.get('/', function(req, res, next) {
   res.render('index');
